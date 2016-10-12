@@ -1,0 +1,91 @@
+﻿<Window x:Class="Fiszka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Fiszka"
+        Title="Fiszka" Height="540.111" Width="845.222">
+    <Window.Resources>
+
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <local:NullToVisibilityConverter x:Key="NullToVis"></local:NullToVisibilityConverter>
+        <local:DictionaryToResponseNumber x:Key="DictToResp"></local:DictionaryToResponseNumber>
+        <local:DictionaryToSuccesssesNumber x:Key="DictToSuccResp"></local:DictionaryToSuccesssesNumber>
+    </Window.Resources>
+    <Window.DataContext>
+        <local:MainWindowViewModel />
+    </Window.DataContext>
+    <DockPanel LastChildFill="True">
+        <Grid DockPanel.Dock="Right" Margin="10 
+              ">
+            <StackPanel Orientation="Vertical" MinWidth="400" Visibility="{Binding Path=SelectedDictionary,Converter={StaticResource NullToVis}}">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="{Binding SelectedDictionary.Title}" FontSize="16" Foreground="#FF681B5A"/>
+                    <Button Command="{Binding AddWordCommand}" Margin="20,0,0,0">Add new word</Button>
+                    <Button Command="{Binding StartLearningCommand}" Margin="20,0,0,0">Start Learning</Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Words: "/>
+                    <Label Content="{Binding SelectedDictionary.Words.Count}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="All responses: "/>
+                    <Label Content="{Binding SelectedDictionary.Words,Converter={StaticResource DictToResp}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Success responses: "/>
+                    <Label Content="{Binding SelectedDictionary.Words,Converter={StaticResource DictToSuccResp}}"/>
+                </StackPanel>
+                <ListBox Name="listBox_words" ItemsSource="{Binding SelectedDictionary.Words}" SelectedItem="{Binding SelectedWord}" Margin="0,10,0,0" Height="330" Tag="{Binding}">
+                    
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+
+                            <StackPanel Orientation="Horizontal" >
+                                <TextBlock Text="{Binding OriginWord}" MinWidth="100"></TextBlock>
+                                <TextBlock Text="{Binding Translation}" TextWrapping="Wrap" Width="190" Margin="0,0,5,0"/>
+                                
+                                <TextBlock Text="{Binding Successes}" TextWrapping="Wrap" Width="25" Foreground="#FF066330" />
+                                <TextBlock Text="{Binding Losses}" TextWrapping="Wrap" Width="25" Foreground="DarkRed"/>
+                              
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+                <Button Command="{Binding DeleteWordCommand}" Margin="50,0,50,0" Visibility="{Binding Path=SelectedWord,Converter={StaticResource NullToVis}}">Delete word</Button>
+
+            </StackPanel>
+        </Grid>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+
+
+            <ComboBox ItemsSource="{Binding Users}" SelectedItem="{Binding SelectedUser,Mode=TwoWay}" DisplayMemberPath="Name" SelectedValuePath="Name" Width="150" >
+                 
+            </ComboBox>
+            <Button Command="{Binding AddUserCommand}">
+                Add user
+            </Button>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,10,0,0">
+            <Label>Dictionaries: </Label>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
+            <Button Command="{Binding EditDictionaryCommand}" Margin="0,0,20,0" Visibility="{Binding Path=SelectedDictionary,Converter={StaticResource NullToVis}}">Edit name</Button>
+            <Button Command="{Binding DeleteDictionaryCommand}" Margin="0,0,20,0" Visibility="{Binding Path=SelectedDictionary,Converter={StaticResource NullToVis}}">Delete dict</Button>
+            <Label>New dictionary:</Label>
+            <TextBox Text="{Binding NewDictionaryValue,Mode=TwoWay}" MinWidth="100" ToolTip="Wpisz nazwę dla nowego slownika"></TextBox>
+            <Button Command="{Binding AddDictionaryCommand}">Add</Button>
+            
+        </StackPanel>
+        <ListBox Name="listBox" SelectedItem="{Binding SelectedDictionary, Mode=TwoWay}" ItemsSource="{Binding SelectedUser.Dictionaries}"  >
+     
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding DictionaryId}" MaxWidth="30"></Label>
+                        <Label Content="{Binding Title}"></Label>
+                        </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
+</Window>
+

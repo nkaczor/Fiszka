@@ -1,0 +1,7 @@
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\CarLibraryMock1\bin\Debug\CarLibraryMock1.dll
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\CarLibraryMock1\bin\Debug\CarLibraryMock1.pdb
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\CarLibraryMock1\bin\Debug\Interfaces.dll
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\CarLibraryMock1\bin\Debug\Interfaces.pdb
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\CarLibraryMock1\obj\Debug\CarLibraryMock1.csprojResolveAssemblyReference.cache
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\CarLibraryMock1\obj\Debug\CarLibraryMock1.dll
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\CarLibraryMock1\obj\Debug\CarLibraryMock1.pdb

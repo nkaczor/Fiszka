@@ -1,0 +1,7 @@
+C:\Users\kaczo\Desktop\PWProject\CarLibraryMock1\bin\Debug\CarLibraryMock1.dll
+C:\Users\kaczo\Desktop\PWProject\CarLibraryMock1\bin\Debug\CarLibraryMock1.pdb
+C:\Users\kaczo\Desktop\PWProject\CarLibraryMock1\bin\Debug\Interfaces.dll
+C:\Users\kaczo\Desktop\PWProject\CarLibraryMock1\bin\Debug\Interfaces.pdb
+C:\Users\kaczo\Desktop\PWProject\CarLibraryMock1\obj\Debug\FiszkaLibraryMock1.csprojResolveAssemblyReference.cache
+C:\Users\kaczo\Desktop\PWProject\CarLibraryMock1\obj\Debug\CarLibraryMock1.dll
+C:\Users\kaczo\Desktop\PWProject\CarLibraryMock1\obj\Debug\CarLibraryMock1.pdb

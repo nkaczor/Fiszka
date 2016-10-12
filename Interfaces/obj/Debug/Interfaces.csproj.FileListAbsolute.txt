@@ -1,0 +1,10 @@
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\kaczo\Desktop\PWProject\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\kaczo\Desktop\PWProject\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\kaczo\Desktop\PWProject\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\kaczo\Desktop\PWProject\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\kaczo\Desktop\PWProject\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache

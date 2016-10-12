@@ -1,0 +1,22 @@
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\bin\Debug\MVVMTest.exe.config
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\bin\Debug\MVVMTest.exe
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\bin\Debug\MVVMTest.pdb
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MVVMTest.csprojResolveAssemblyReference.cache
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MainWindow.baml
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MainWindow.g.cs
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\App.g.cs
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MVVMTest_MarkupCompile.cache
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MVVMTest.g.resources
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MVVMTest.Properties.Resources.resources
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MVVMTest.csproj.GenerateResource.Cache
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MVVMTest.exe
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MVVMTest.pdb
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\bin\Debug\CarLibraryMock1.dll
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\bin\Debug\Interfaces.dll
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\bin\Debug\CarLibraryMock1.pdb
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\bin\Debug\Interfaces.pdb
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jablo\OneDrive\Studia\6 semestr\PW\MVVMTest\MVVMTest\obj\Debug\MVVMTest_MarkupCompile.lref
+C:\Users\kaczo\Desktop\PWProject\MVVMTest\bin\Debug\MVVMTest.exe.config
+C:\Users\kaczo\Desktop\PWProject\MVVMTest\obj\Debug\MVVMTest.exe
+C:\Users\kaczo\Desktop\PWProject\MVVMTest\obj\Debug\MVVMTest.pdb
